@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>El Genero</title>
+</head>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary barranav">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="./index.html">Volver al inicio</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<body>
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">Recuperar Contraseña</h1>
+            <form id="form" action="./index.html">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" class="mail" placeholder="Correo Electronico" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" class="contra1" placeholder="Ingrese la nueva Contraseña">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" class="contra2" placeholder="Repita la nueva Contraseña">
+                    </div>
+                    <p>Escriba la contraseña nueva en los dos campos</p>
+                </div>
+            </form>
+            <div id="sendbtn" class="btn-field" onclick="mostrar();">
+                <button id="send" type="button">Enviar</button>
+            </div>
+            <br>
+            <div class="error"></div>
+            <br>
+        </div>
+    </div>
+    <script src="./maincontra.js"></script>
+
+</body>
+
+</html>

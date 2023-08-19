@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.recuadro {
+    padding-top: 20px;
+}
+
+.imgini{
+  height: 100%;
+  width: 100%;
+
+}
+
+.imgnav {
+    height: 50%;
+    width: 50%;
+}
+
+.barranav {
+    background-color: #2C2F35;
+}
+
+.card,
+.card-text {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: #2C2F35;
+}
+
+h5,
+h2,
+h1 {
+    color: #04BD7D;
+}
+
+.card-title {
+    color: #04BD7D;
+}
+
+
+
+
+.tarjeta1,
+.tarjeta-texto1,
+.tarjeta-body1 {
+    background-image: url(./imagenes/img3men.jfif);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta2,
+.tarjeta-texto2,
+.tarjeta-body2 {
+    background-image: url(./imagenes/imgtego.jfif);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta3,
+.tarjeta-texto3,
+.tarjeta-body3 {
+    background-image: url(./imagenes/imgcbryant.jpg);
+    background-color: #CCCC;
+    color: black;
+}
+
+.tarjeta4,
+.tarjeta-texto4,
+.tarjeta-body4 {
+    background-image: url(./imagenes/imgfronteamos.jpg);
+    background-color: #CCCC;
+    color: black;
+}
+
+.tarjeta5,
+.tarjeta-texto5,
+.tarjeta-body5 {
+    background-image: url(./imagenes/imgtego.jfif);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta6,
+.tarjeta-texto6,
+.tarjeta-body6 {
+    background-image: url(./imagenes/imgcbryant.jpg);
+    background-color: #CCCC;
+    color: rgb(0, 0, 0);
+}
+
+.tarjeta7,
+.tarjeta-texto7,
+.tarjeta-body7 {
+    background-image: url(./imagenes/imgfronteamos.jpg);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta8,
+.tarjeta-texto8,
+.tarjeta-body8 {
+    background-image: url(./imagenes/img3men.jfif);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta9,
+.tarjeta-texto9,
+.tarjeta-body9 {
+    background-image: url(./imagenes/imgcbryant.jpg);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta10,
+.tarjeta-texto10,
+.tarjeta-body10 {
+    background-image: url(./imagenes/imgfronteamos.jpg);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta11,
+.tarjeta-texto11,
+.tarjeta-body11 {
+    background-image: url(./imagenes/img3men.jfif);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.tarjeta12,
+.tarjeta-texto12,
+.tarjeta-body12 {
+    background-image: url(./imagenes/imgtego.jfif);
+    background-color: #CCCC;
+    color: whitesmoke;
+}
+
+.card-title1 {
+    color:rgb(231, 209, 198) ;
+}
+a{
+    color: rgb(7, 158, 185);
+}
+.card-footer{
+    background-color: lightgrey;
+    color: rgb(0, 0, 0);
+}
+
+.imgcar{
+    width: 50%;
+    height: 50%;
+}
+
+.recom{
+    text-decoration: none;
+    color:  #04BD7D;
+    font-size: large;
+}
+
+.imgart{
+    height: 40vh;
+    width: 40%;
+    position: absolute;
+}
+.button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 10px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+}
+  
+  .button2:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+               inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #04BD7D;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:hover {
+    color: #ffffff;
+    border: 1px solid #04BD7D;
+  }
+  
+  .button2:hover:before {
+    top: -35%;
+    background-color: #04BD7D;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2:hover:after {
+    top: -45%;
+    background-color: #04BD7D;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  .vermas{
+    text-decoration: none;
+    color: #090909;
+  }
+
+  .button3 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+}
+  
+  .button3:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+               inset -4px -4px 12px #ffffff;
+  }
+  
+  .button3:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button3:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #0dcaf0;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button3:hover {
+    color: #ffffff;
+    border: 1px solid #0dcaf0;
+  }
+  
+  .button3:hover:before {
+    top: -35%;
+    background-color: #0dcaf0;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button3:hover:after {
+    top: -45%;
+    background-color: #0dcaf0;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+
+  .main {
+    background-color: white;
+    padding: 1em;
+    padding-bottom: 1.1em;
+    border-radius: 15px;
+    margin: 1em;
+  }
+  
+  .loader {
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    transform: rotate(180deg);
+    justify-content: right;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+  }
+  
+  .loader:hover {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  .currentplaying {
+    display: flex;
+    margin: 1em;
+  }
+  
+  .spotify {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.6em;
+  }
+  
+  .heading {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  .loading {
+    display: flex;
+    margin-top: 1em;
+    margin-left: 0.3em;
+  }
+  
+  .load {
+    width: 2px;
+    height: 33px;
+    background-color: limegreen;
+    animation: 1s move6 infinite;
+    border-radius: 5px;
+    margin: 0.1em;
+  }
+  
+  .load:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .load:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .load:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .play {
+    position: relative;
+    left: 0.35em;
+    height: 1.6em;
+    width: 1.6em;
+    clip-path: polygon(50% 50%, 100% 50%, 75% 6.6%);
+    background-color: black;
+    transform: rotate(-90deg);
+    align-self: center;
+    margin-top: 0.7em;
+    justify-self: center;
+  }
+  
+  .albumcover {
+    position: relative;
+    margin-right: 1em;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(233, 232, 232);
+    align-self: center;
+    border-radius: 5px;
+  }
+  
+  .song {
+    position: relative;
+    transform: rotate(180deg);
+    margin-right: 1em;
+    color: black;
+    align-self: center;
+  }
+  
+  .artist {
+    font-size: 0.6em;
+  }
+  
+  @keyframes move6 {
+    0% {
+      height: 0.2em;
+    }
+  
+    25% {
+      height: 0.7em;
+    }
+  
+    50% {
+      height: 1.5em;
+    }
+  
+    100% {
+      height: 0.2em;
+    }
+  }
+
+
+
